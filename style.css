@@ -26,6 +26,7 @@ nav ul li a{
     text-decoration: none;
     color: hsl(236, 13%, 42%);
     font-size: 16px;
+    transition: all 0.2s ease-in-out;
 }
 nav ul li a:hover{
     color: orange;
@@ -48,13 +49,16 @@ header{
     grid-area: img;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
 }
 .home_new{
     grid-area: new;
 }
 .home_web3{
     grid-area: web3;
+}
+.home_web3 h1{
+    font-size: 4vw;
 }
 .new_h{
     color: white;
@@ -67,6 +71,8 @@ header{
     font-size: 16px;
     margin-top: 20px;
 }
-hr{
-    width
+.home_read p{
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: 2px;
 }
